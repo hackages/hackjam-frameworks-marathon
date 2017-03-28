@@ -13,7 +13,7 @@
     "react-scripts": "0.9.5"
   },
   "scripts": {
-    "prestart": "npm run i",
+    "prestart": "yarn install",
     "start": "react-scripts start & yarn server",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
