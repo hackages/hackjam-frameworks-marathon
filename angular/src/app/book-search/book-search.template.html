@@ -1,0 +1,10 @@
+<div id="search-component">
+  <h4>Search in your library</h4>
+  <input id="search-box" (keyup)="search()" />
+  <div>
+    <div *ngFor="let book of books"
+         (click)="gotoDetail(book)" class="search-result" >
+      {{book.title}}
+    </div>
+  </div>
+</div>
