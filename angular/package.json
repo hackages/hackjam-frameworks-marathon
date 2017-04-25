@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "prestart": "npm run i",
+    "prestart": "npm install",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
